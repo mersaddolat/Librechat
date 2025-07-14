@@ -52,8 +52,8 @@ export default defineConfig(({ command }) => ({
       },
       includeAssets: [],
       manifest: {
-        name: 'LibreChat',
-        short_name: 'LibreChat',
+        name: 'Nutika Chat',
+        short_name: 'Nutika Chat',
         start_url: '/',
         display: 'standalone',
         background_color: '#000000',

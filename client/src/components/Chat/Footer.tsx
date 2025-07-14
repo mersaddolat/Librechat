@@ -37,9 +37,9 @@ export default function Footer({ className }: { className?: string }) {
   const mainContentParts = (
     typeof config?.customFooter === 'string'
       ? config.customFooter
-      : '[LibreChat ' +
+      : '[Nutika Chat ' +
         Constants.VERSION +
-        '](https://librechat.ai) - ' +
+        '](https://chat.ai.nutika.ir) - ' +
         localize('com_ui_latest_footer')
   ).split('|');
 
@@ -102,6 +102,7 @@ export default function Footer({ className }: { className?: string }) {
                   className="h-2 border-r-[1px] border-border-medium"
                 />
               )}
+              <p>Salam</p>
             </React.Fragment>
           );
         })}
