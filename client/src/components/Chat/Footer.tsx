@@ -102,7 +102,6 @@ export default function Footer({ className }: { className?: string }) {
                   className="h-2 border-r-[1px] border-border-medium"
                 />
               )}
-              <p>Salam</p>
             </React.Fragment>
           );
         })}
